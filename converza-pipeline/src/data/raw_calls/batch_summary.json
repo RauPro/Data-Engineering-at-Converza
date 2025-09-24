@@ -1,0 +1,52 @@
+{
+  "batch_info": {
+    "total_calls": 50,
+    "generated_at": "2025-09-24T11:46:04.258176",
+    "agents_involved": [
+      "Amanda White",
+      "James Brown",
+      "Emily Rodriguez",
+      "Lisa Thompson",
+      "Sarah Johnson",
+      "Kevin Martinez",
+      "Michael Chen",
+      "David Smith",
+      "Robert Wilson",
+      "Christopher Lee",
+      "Maria Garcia",
+      "Jennifer Davis"
+    ]
+  },
+  "sample_calls": [
+    {
+      "call_id": "CALL_0E2A22EC",
+      "agent_name": "Lisa Thompson",
+      "timestamp": "2025-09-19T19:16:59.313131",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: Can you help me with your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Technology camera white officer treat able action artist. Customer: Expert image movie this. Agent: Which program into crime sing finish. Customer: Recognize strong write these management community. Agent: Is there anything else I can help you with today? Customer: Let me think about it and get back to you. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    },
+    {
+      "call_id": "CALL_C1F65FD3",
+      "agent_name": "Robert Wilson",
+      "timestamp": "2025-08-27T22:42:01.100900",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: Hello, I'm calling about your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Young effort better make civil. Customer: Them rock add test interesting family sea. Agent: Offer close beyond. Customer: Turn south often deal federal wide especially. Agent: Environment six beat town. Customer: Similar Mrs picture apply. Agent: As find rather wrong behind. Customer: Clear attorney mission contain economic throughout course author. Agent: May again agreement. Customer: Site pull camera there long turn. Agent: Is there anything else I can help you with today? Customer: Let me think about it and get back to you. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    },
+    {
+      "call_id": "CALL_9F809241",
+      "agent_name": "Kevin Martinez",
+      "timestamp": "2025-09-04T23:13:45.761297",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: Can you help me with your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Decade human million box fight. Customer: Discuss manage artist present ground despite result. Agent: Stay suggest can. Customer: Political cup call stage. Agent: Why especially bit writer stay. Customer: Anything total language. Agent: Within art find economy particular make. Customer: Thousand Republican key speech difficult. Agent: Great! So would you like to proceed? Customer: I'd like to move forward. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    },
+    {
+      "call_id": "CALL_E5A2D3EE",
+      "agent_name": "Lisa Thompson",
+      "timestamp": "2025-09-05T07:14:08.726288",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: I'd like to know more about your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Congress dream necessary say someone media. Customer: Practice media degree single film. Agent: Add cause agreement teach party event last. Customer: Fine property year turn. Agent: Great! So would you like to proceed? Customer: I'm ready to buy. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    },
+    {
+      "call_id": "CALL_1054A9CF",
+      "agent_name": "David Smith",
+      "timestamp": "2025-09-22T22:27:33.912998",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: I'm considering your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Just off thought. Customer: Physical price color indeed. Agent: Take win station theory rich. Customer: Ability garden identify safe war carry sign term. Agent: Game Mr Mrs. Customer: Officer argue entire consumer film weight alone. Agent: Is there anything else I can help you with today? Customer: Let me think about it and get back to you. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    }
+  ]
+}

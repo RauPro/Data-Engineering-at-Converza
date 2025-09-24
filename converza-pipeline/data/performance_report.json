@@ -1,0 +1,137 @@
+{
+  "report_generated_at": "2025-09-24T15:10:48.510577",
+  "pipeline_summary": {
+    "bronze_records": 25,
+    "silver_records": 25,
+    "gold_records": 25
+  },
+  "overall_kpis": {
+    "total_calls": 50,
+    "total_conversions": 2,
+    "overall_conversion_rate": 4.0,
+    "total_upsell_revenue": 330.0,
+    "avg_upsell_per_call": 6.6
+  },
+  "agent_performance": [
+    {
+      "agent_name": "James Brown",
+      "total_calls": 5,
+      "conversions": 1,
+      "conversion_rate": 20.0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 5,
+      "negative_calls": 0,
+      "neutral_calls": 0
+    },
+    {
+      "agent_name": "Maria Garcia",
+      "total_calls": 8,
+      "conversions": 1,
+      "conversion_rate": 12.5,
+      "total_upsell_revenue": 30.0,
+      "positive_calls": 8,
+      "negative_calls": 0,
+      "neutral_calls": 0
+    },
+    {
+      "agent_name": "Emily Rodriguez",
+      "total_calls": 4,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 300.0,
+      "positive_calls": 3,
+      "negative_calls": 0,
+      "neutral_calls": 1
+    },
+    {
+      "agent_name": "Amanda White",
+      "total_calls": 5,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 3,
+      "negative_calls": 2,
+      "neutral_calls": 0
+    },
+    {
+      "agent_name": "Christopher Lee",
+      "total_calls": 5,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 5,
+      "negative_calls": 0,
+      "neutral_calls": 0
+    },
+    {
+      "agent_name": "David Smith",
+      "total_calls": 3,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 2,
+      "negative_calls": 0,
+      "neutral_calls": 1
+    },
+    {
+      "agent_name": "Jennifer Davis",
+      "total_calls": 4,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 4,
+      "negative_calls": 0,
+      "neutral_calls": 0
+    },
+    {
+      "agent_name": "Kevin Martinez",
+      "total_calls": 4,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 3,
+      "negative_calls": 0,
+      "neutral_calls": 1
+    },
+    {
+      "agent_name": "Lisa Thompson",
+      "total_calls": 1,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 0,
+      "negative_calls": 0,
+      "neutral_calls": 1
+    },
+    {
+      "agent_name": "Michael Chen",
+      "total_calls": 5,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 3,
+      "negative_calls": 0,
+      "neutral_calls": 2
+    },
+    {
+      "agent_name": "Robert Wilson",
+      "total_calls": 3,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 2,
+      "negative_calls": 0,
+      "neutral_calls": 1
+    },
+    {
+      "agent_name": "Sarah Johnson",
+      "total_calls": 3,
+      "conversions": 0,
+      "conversion_rate": 0,
+      "total_upsell_revenue": 0.0,
+      "positive_calls": 3,
+      "negative_calls": 0,
+      "neutral_calls": 0
+    }
+  ]
+}

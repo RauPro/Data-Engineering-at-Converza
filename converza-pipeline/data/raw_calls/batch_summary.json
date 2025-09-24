@@ -1,0 +1,52 @@
+{
+  "batch_info": {
+    "total_calls": 25,
+    "generated_at": "2025-09-24T15:10:46.825391",
+    "agents_involved": [
+      "David Smith",
+      "Jennifer Davis",
+      "Christopher Lee",
+      "Michael Chen",
+      "Maria Garcia",
+      "James Brown",
+      "Kevin Martinez",
+      "Lisa Thompson",
+      "Sarah Johnson",
+      "Amanda White",
+      "Robert Wilson",
+      "Emily Rodriguez"
+    ]
+  },
+  "sample_calls": [
+    {
+      "call_id": "CALL_A0B3AC58",
+      "agent_name": "James Brown",
+      "timestamp": "2025-08-31T00:07:59.470613",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: I'm considering your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Table year action risk quality. Customer: Fast statement sign mean pick. Agent: Us spring floor least experience operation sit. Customer: Operation feeling morning pretty who. Agent: Lead may member. Customer: Relationship must serve mission. Agent: Great! So would you like to proceed? Customer: I'll take it. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    },
+    {
+      "call_id": "CALL_BA2E1914",
+      "agent_name": "Emily Rodriguez",
+      "timestamp": "2025-09-20T08:03:35.506959",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: What are the options for your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Foreign house film left save front law. Customer: Collection moment debate since. Agent: Himself investment civil to argue control industry. Customer: Data possible rise. Agent: Already audience international now consider. Customer: Mrs institution store education use itself. Agent: Is there anything else I can help you with today? Customer: Let me think about it and get back to you. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    },
+    {
+      "call_id": "CALL_3F828410",
+      "agent_name": "James Brown",
+      "timestamp": "2025-09-23T16:39:21.008841",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: Can you tell me about your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Writer laugh source then rate. Customer: Artist friend return hear man thousand treatment have. Agent: Against whether sister foot anything. Customer: Think economy investment off page smile fly. Agent: Improve edge tough commercial either recognize. Customer: Right language him somebody. Agent: Great! So would you like to proceed? Customer: Let's get started. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    },
+    {
+      "call_id": "CALL_B0A42879",
+      "agent_name": "David Smith",
+      "timestamp": "2025-09-16T04:45:02.714006",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: What are the options for your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Ball nothing music education foot record. Customer: Box fall fear million able turn goal available. Agent: Avoid describe type Mrs. Customer: Poor customer service. Surface then leave marriage. Agent: Information trial tend score level glass bit. Customer: Environmental might owner hundred market. Agent: Is there anything else I can help you with today? Customer: Let me think about it and get back to you. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    },
+    {
+      "call_id": "CALL_C1F1960F",
+      "agent_name": "Maria Garcia",
+      "timestamp": "2025-09-02T02:12:22.933022",
+      "transcript_text": "Agent: Hello, thank you for calling. How can I help you today? Customer: I have some questions your services. Agent: I'd be happy to help you with that. Let me explain our options. Customer: That sounds interesting. Tell me more about the features. Agent: Improve white measure. Customer: Note quite religious worker modern. Agent: So win ever. Customer: Three kind dream coach including fine consumer forget. Agent: Near note do crime. Customer: Ready plant light bad possible couple represent challenge. Agent: Is there anything else I can help you with today? Customer: Let me think about it and get back to you. Agent: Thank you for your time. Have a great day! Customer: Thank you, goodbye."
+    }
+  ]
+}
