@@ -172,6 +172,52 @@ Keyword-based sentiment scoring with negation handling:
 - **Psycopg2** - PostgreSQL adapter
 - **Faker** - Synthetic data generation
 
+## 🪂 Orchestration with Apache Airflow (Docker)
+
+### What you get
+
+- A minimal Airflow setup in Docker running the DAG every minute
+- Reuses your `.env` for all pipeline configuration
+- The DAG runs two tasks sequentially:
+  1. `python main.py generate --num-calls 50`
+  2. `python main.py etl --batch-size 50`
+
+### Files
+
+```
+airflow/
+  Dockerfile          # Airflow image with project requirements
+  dags/
+    call_pipeline_dag.py  # Minutely DAG: generate -> etl
+docker-compose.yml    # Runs Airflow standalone on :8080
+```
+
+### Prerequisites
+
+- Docker and Docker Compose
+- A populated `.env` at the repository root (same variables listed above)
+
+### Start Airflow
+
+```bash
+docker compose up -d --build
+# UI: http://localhost:8080  (default user: admin / admin on first run)
+```
+
+The DAG `call_pipeline_minutely` is enabled by default (no catchup) and executes every minute.
+
+### Stop Airflow
+
+```bash
+docker compose down
+```
+
+### Notes & Best Practices
+
+- The project root is mounted read-only at `/opt/airflow/project` inside the container.
+- Environment variables from `.env` are injected into the Airflow container; `config.py` uses `dotenv` so the CLI scripts pick them up.
+- Keep functions small, use descriptive names, avoid magic numbers; the DAG keeps parameters explicit and searchable.
+
 ## 🏭 Design Principles
 
 ### Clean Code Practices

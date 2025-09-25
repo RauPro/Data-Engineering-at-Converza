@@ -1,0 +1,32 @@
+services:
+  airflow:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    container_name: airflow
+    command:
+      [
+        "bash",
+        "-lc",
+        "airflow db migrate && airflow users create --role Admin --username ${AIRFLOW_WWW_USER_USERNAME:-admin} --password ${AIRFLOW_WWW_USER_PASSWORD:-admin} --firstname ${AIRFLOW_WWW_USER_FIRSTNAME:-Airflow} --lastname ${AIRFLOW_WWW_USER_LASTNAME:-Admin} --email ${AIRFLOW_WWW_USER_EMAIL:-admin@example.com} || true; exec airflow standalone",
+      ]
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - PYTHONPATH=/opt/airflow/project
+      - _AIRFLOW_WWW_USER_USERNAME=${AIRFLOW_WWW_USER_USERNAME:-admin}
+      - _AIRFLOW_WWW_USER_PASSWORD=${AIRFLOW_WWW_USER_PASSWORD:-admin}
+      - AIRFLOW_WWW_USER_FIRSTNAME=${AIRFLOW_WWW_USER_FIRSTNAME:-Airflow}
+      - AIRFLOW_WWW_USER_LASTNAME=${AIRFLOW_WWW_USER_LASTNAME:-Admin}
+      - AIRFLOW_WWW_USER_EMAIL=${AIRFLOW_WWW_USER_EMAIL:-admin@example.com}
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./:/opt/airflow/project:ro
+      - airflow_logs:/opt/airflow/logs
+    restart: unless-stopped
+
+volumes:
+  airflow_logs:
