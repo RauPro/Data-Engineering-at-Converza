@@ -270,4 +270,5 @@ if __name__ == '__main__':
     debug = os.environ.get('DEBUG', 'True').lower() == 'true'
     
     logger.info(f"Starting Converza Dashboard on port {port}")
-    app.run_server(debug=debug, host='0.0.0.0', port=port)
+    # Dash >= 3.0 replaces run_server with run
+    app.run(debug=debug, host='0.0.0.0', port=port)
