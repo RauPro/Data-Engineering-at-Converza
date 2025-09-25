@@ -7,4 +7,5 @@ requires-python = ">=3.12"
 dependencies = [
     "boto3>=1.40.38",
     "dotenv>=0.9.9",
+    "faker>=37.8.0",
 ]
