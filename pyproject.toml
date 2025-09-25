@@ -1,11 +1,12 @@
 [project]
 name = "data-engineering-at-converza"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multi-layered ETL pipeline for call center analytics with Bronze, Silver, and Gold data layers"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
-    "boto3>=1.40.38",
-    "dotenv>=0.9.9",
-    "faker>=37.8.0",
+    "boto3>=1.28.0",
+    "python-dotenv>=1.0.0",
+    "faker>=19.0.0",
+    "psycopg2-binary>=2.9.0",
 ]
